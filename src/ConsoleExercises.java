@@ -1,20 +1,6 @@
 import java.util.Scanner;
 public class ConsoleExercises {
     public static void main(String[] args){
-//        double pi = 3.14159;
-//        System.out.format("The value of pi is approximately %.2f%n",pi);
-//        Scanner scanner = new Scanner(System.in);
-//
-//        System.out.print("please enter 3 Sentences: ");
-//        String userInput = scanner.nextLine(), userInput1  = scanner.nextLine(), userInput2 = scanner.nextLine();
-//
-//
-//
-//        System.out.println("You entered: --> \""+ userInput + "\" <--");
-//        System.out.println("You entered: --> \""+ userInput1 + "\" <--");
-//        System.out.println("You entered: --> \""+ userInput2 + "\" <--");
-//        import java.util.Scanner;
-//
 
         Scanner scanner = new Scanner(System.in);
 

@@ -4,19 +4,18 @@ public class Bob {
         Scanner scanner = new Scanner(System.in);
         String reply = "bye";
 
-        System.out.println("Talk to Bob the lazy teenager\n");
-        String input = scanner.next();
-
         while (reply.equalsIgnoreCase("bye")) {
+            System.out.println("Talk to Bob the lazy teenager");
+            String input = scanner.next();
 
             if (input.endsWith("?")) {
-                System.out.println("Sure.\n");
-            } else if (input.endsWith("!\n")) {
-                System.out.println("Whoa, chill out!\n");
+                System.out.println("Sure.");
+            } else if (input.endsWith("!")) {
+                System.out.println("Whoa, chill out!");
             } else if (input.isEmpty()) {
-                System.out.println("Fine. Be that way!\n");
+                System.out.println("Fine. Be that way!");
             } else {
-                System.out.println("Whatever.\n");
+                System.out.println("Whatever.");
             }
 
             System.out.println("Say bye to end conversation");

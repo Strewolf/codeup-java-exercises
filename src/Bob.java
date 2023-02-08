@@ -3,11 +3,10 @@ public class Bob {
     public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
         String reply = "bye";
-
+        System.out.println("Talk to Bob the lazy teenager");
         while (reply.equalsIgnoreCase("bye")) {
-            System.out.println("Talk to Bob the lazy teenager");
-            String input = scanner.next();
 
+            String input = scanner.next();
             if (input.endsWith("?")) {
                 System.out.println("Sure.");
             } else if (input.endsWith("!")) {
@@ -15,7 +14,7 @@ public class Bob {
             } else if (input.isEmpty()) {
                 System.out.println("Fine. Be that way!");
             } else {
-                System.out.println("Whatever.");
+                System.out.println("Whatever.%n");
             }
 
             System.out.println("Say bye to end conversation");

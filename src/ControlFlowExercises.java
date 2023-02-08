@@ -28,6 +28,7 @@ public class ControlFlowExercises {
             String answer = scanner.next();
             if (answer.equalsIgnoreCase("n")) {
                 System.out.println("Thank you for using smith grading services");
+                break;
             }
 
     }}}

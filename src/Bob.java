@@ -14,7 +14,7 @@ public class Bob {
             } else if (input.isEmpty()) {
                 System.out.println("Fine. Be that way!");
             } else {
-                System.out.println("Whatever.%n");
+                System.out.println("Whatever.");
             }
 
             System.out.println("Say bye to end conversation");

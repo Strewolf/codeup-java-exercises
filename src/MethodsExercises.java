@@ -7,8 +7,15 @@ public static int Subtraction(int number, int number2){
 return number - number2;
 };
 
-public static int Multiplication(int number, int number2){
-return number * number2;
+public static int Multiplication(int number, int number2) {
+    if (number2 == 0) {
+        return 0;
+    };
+    if (number2 > 0) {
+        return number + Multiplication(number, number2 - 1);
+
+    };
+    return -Multiplication(number, -number2);
 };
 
 public static int Division(int number, int number2) {

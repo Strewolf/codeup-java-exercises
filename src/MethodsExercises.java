@@ -11,9 +11,14 @@ public static int Multiplication(int number, int number2){
 return number * number2;
 };
 
-public static int Division(int number, int number2){
+public static int Division(int number, int number2) {
     return number / number2;
 };
+    public static int Modulus(int number, int number2){
+        return number % number2;
+    }
+
+
     public static void main(String[] args) {
         int result = Addition(3,4);
         System.out.println(result);
@@ -23,8 +28,12 @@ public static int Division(int number, int number2){
 
         int multiply = Multiplication(2,2);
         System.out.println(multiply);
-        int divide = Division(8,4);
+
+        int divide = Division(8,2);
         System.out.println(divide);
+
+        int mod = Modulus(4,4);
+        System.out.println(mod);
     }
 
 }

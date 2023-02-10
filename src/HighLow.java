@@ -25,7 +25,7 @@ public class HighLow {
         do {
             System.out.println("Please enter a number between 1 and 100");
             int response = scanner.nextInt();
-            guess--;
+
             if (response == randomNumber) {
                 System.out.println("Congratulations!! you guessed correctly the number is " + randomNumber);
                 break;
@@ -36,7 +36,7 @@ public class HighLow {
             if (response < randomNumber) {
                 System.out.println("Higher");
             }
-
+            guess--;
         } while (guess != 0);
 
         if (guess == 0){

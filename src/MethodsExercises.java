@@ -1,7 +1,9 @@
 import java.net.SocketOption;
 import java.sql.SQLOutput;
 import java.util.DoubleSummaryStatistics;
+import java.util.Random;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class MethodsExercises {
 public static int Addition(int number,int number2){
@@ -39,18 +41,27 @@ public static int Division(int number, int number2) {
 //        }
 //    };
 
-    public static long factorial(long num){
-        int result = 1;
-        for(int i = 1; i<=num;i++){
-            result*=i;
-        }if (num < 1 || num > 10){
-            System.out.println("Number you entered is out of range");
-            return num;
+//    public static long factorial(long num){
+//        int result = 1;
+//        for(int i = 1; i<=num;i++){
+//            result*=i;
+//        }if (num < 1 || num > 10){
+//            System.out.println("Number you entered is out of range");
+//            return num;
+//
+//        } else{
+//
+//            return result;
+//        }
+//    };
 
-        } else{
+    public static int[] diceRoll(int num){
+        int [] dice = new int[2];
+         dice[0] = (int)(Math.random()*num)+1;
+         dice[1] = (int)(Math.random()*num)+1;
+        System.out.println("Ya feelin lucky.... huh punk??");
+        return dice;
 
-            return result;
-        }
     };
 
 
@@ -70,23 +81,38 @@ public static int Division(int number, int number2) {
 
         int mod = Modulus(4,4);
         System.out.println(mod);
+
+
+        String userInput = "y";
+        while (userInput.equalsIgnoreCase("y")) {
+            System.out.println("Welcome to smitty's casino!! Enter how many sides to the dice you would like and test your luck.");
+            int input = scanner.nextInt();
+            int []results = diceRoll(input);
+            System.out.println(Arrays.toString(results));
+            System.out.println("Would you like to continue? [y/n]: ");
+            String answer = scanner.next();
+            if (answer.equalsIgnoreCase("n")) {
+                System.out.println("Thank you for coming to Smitty's Casino, have a good day.");
+                break;
+            }
+        }
 //        int results;
 //        long fact = factorial(5);
 //        System.out.println(fact);
 
-       long results;
-        do {
-            System.out.println("Enter a number 1-10 to be factored:");
-            int userInput = scanner.nextInt();
-            results = factorial(userInput);
-            System.out.println(results);
-            System.out.println("Would you like to continue[y/n]");
-            String answer = scanner.next();
-            if (answer.equalsIgnoreCase("n")){
-                System.out.println("Thank you for using smith factorial");
-                break;
-            }
-        }while (results < 1 || results>10 );
+//       long results;
+//        do {
+//            System.out.println("Enter a number 1-10 to be factored:");
+//            int userInput = scanner.nextInt();
+//            results = factorial(userInput);
+//            System.out.println(results);
+//            System.out.println("Would you like to continue[y/n]");
+//            String answer = scanner.next();
+//            if (answer.equalsIgnoreCase("n")){
+//                System.out.println("Thank you for using smith factorial");
+//                break;
+//            }
+//        }while (results < 1 || results>10 );
 
 
 //       do {

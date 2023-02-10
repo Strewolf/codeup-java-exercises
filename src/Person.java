@@ -22,11 +22,20 @@ public class Person {
 
 
     public static void main(String[] args) {
- Person Person = new Person("Horace Smith");
-        System.out.println(Person.getName());
-Person.sayHello();
-        Person.setName("joe");
-        Person.sayHello();
+// Person Person = new Person("Horace Smith");
+//        System.out.println(Person.getName());
+//Person.sayHello();
+//        Person.setName("joe");
+//        Person.sayHello();
+        Person person1 = new Person("John");
+        Person person2 = person1;
+        System.out.println(person1.getName());
+        System.out.println(person2.getName());
+        person2.setName("Jane");
+        System.out.println(person1.getName());
+        System.out.println(person2.getName());
+
+
 
     }
 }

@@ -16,9 +16,9 @@ public class Input {
         return input;
     };
     public Boolean yesNo(){
-        System.out.println("Enter y/yes or n/no:");
-        String input = this.scanner.nextLine().toLowerCase();
-        return input.equals ("y") || input.equals("yes");
+        System.out.println("Enter y/yes or n/no");
+        String input = this.scanner.next();
+        return "y".equalsIgnoreCase(input) || "yes".equalsIgnoreCase(input);
     };
     public int getInt(int min, int max){
         int input;

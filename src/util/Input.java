@@ -5,12 +5,18 @@ public class Input {
 
     public Input(){
         this.scanner = new Scanner(System.in);
-
     }
     public String getString(){
-        return this.scanner.nextLine();
+        String input;
+        do {
+            System.out.println("enter a string");
+            input = this.scanner.nextLine().toLowerCase();
+        }while(input.isEmpty());
+
+        return input;
     };
     public Boolean yesNo(){
+        System.out.println("Enter y/yes or n/no:");
         String input = this.scanner.nextLine().toLowerCase();
         return input.equals ("y") || input.equals("yes");
     };
@@ -19,36 +25,27 @@ public class Input {
         do {
             System.out.println("Enter a number between " + min + " and " + max);
             input = this.scanner.nextInt();
-        }while(input < min || input > max);
+        }while(input < min+ 1 || input > max- 1);
         return input;
     }
 
     public int getInt() {
+        System.out.println("enter an integer");
         return this.scanner.nextInt();
     }
 
     public double getDouble(double min, double max){
-        return this.scanner.nextDouble();
+        double input;
+        do {
+            System.out.println("Enter a number with decimal between " + min + " and " + max);
+            input = this.scanner.nextDouble();
+        }while(input < min+.1 || input > max-.1);
+        return input;
     }
     public double getDouble(){
+        System.out.println("enter a number with a decimal");
         return this.scanner.nextDouble();
     }
 
-    public class InputTest {
-        public static void main (String[]args){
-            Input input = new Input();
-            String str = input.getString();
-            System.out.println("this is a string " + str);
-            int in = input.getInt(10, 20);
-            System.out.println("this is a integer " + in);
-            int integer = input.getInt();
-            System.out.println();
-            double dbl = input.getDouble(.5, 10.2);
-            System.out.println("this is a double within range " + dbl);
-            double dbl2 = input.getDouble();
-            System.out.println("this is double no limits");
-            boolean bln = input.yesNo();
-            System.out.println("this is a boolean " + bln);
-        }
-    }
+
 }

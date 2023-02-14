@@ -1,4 +1,5 @@
 package movies;
+import movies.MoviesArray;
 
 public class movie {
     private String name;
@@ -21,4 +22,5 @@ public class movie {
     public void setCategory(String category) {
         this.category = category;
     }
+
 }

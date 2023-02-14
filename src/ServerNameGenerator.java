@@ -1,4 +1,6 @@
 import java.util.Random;
+import java.util.Scanner;
+
 public class ServerNameGenerator {
     static String[] adjectives = {"Radiant","Majestic","Mysterious","Bold","Shy","Dangerous","Dirty","Active","Loving"};
 
@@ -14,6 +16,16 @@ public class ServerNameGenerator {
         return stringArr[randomIndex];
     }
     public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        String input;
+        do{
+            System.out.println("Enter y/yes to make a server name and n/no to exit");
+            input=scanner.next();
+            if (input.equalsIgnoreCase("yes")|| input.equalsIgnoreCase("y")){
+                System.out.println("here is your server name:" + randomString(adjectives) + "-" + randomString(nouns));
+            }
+
+        }while (input.equalsIgnoreCase("yes") || input.equalsIgnoreCase("y"));
 
     }
 

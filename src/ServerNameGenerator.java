@@ -10,7 +10,6 @@ public class ServerNameGenerator {
         return (int) ((Math.random() * (max - min)) + min);
     }
 
-
     public static String randomString (String[] stringArr) {
         int randomIndex = randomInt(0, stringArr.length);
         return stringArr[randomIndex];

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9bc3b12-edac-4dc7-8fb7-58b561c8c398" name="Changes" comment="java 2 array exercise">
-      <change afterPath="$PROJECT_DIR$/src/movies/MoviesArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/movies/MoviesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/movies/movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServerNameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServerNameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/movies/movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Input.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675090830865</updated>
       <workItem from="1675090834614" duration="34314000" />
-      <workItem from="1675886321777" duration="99078000" />
-    </task>
-    <task id="LOCAL-00008" summary="java second exercise">
-      <created>1675102145562</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1675102145562</updated>
+      <workItem from="1675886321777" duration="121356000" />
     </task>
     <task id="LOCAL-00009" summary="java second exercise">
       <created>1675102679103</created>
@@ -413,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676392619270</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="java 2 array exercise">
+      <created>1676393956678</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1676393956679</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

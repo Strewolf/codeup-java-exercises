@@ -1,11 +1,11 @@
 package movies;
-import movies.MoviesArray;
+//import movies.MoviesArray;
 
-public class movie {
+public class Movie {
     private String name;
     private String category;
 
-    public movie(String name, String category){
+    public Movie(String name, String category){
         this.name = name;
         this.category = category;
     }
@@ -21,6 +21,10 @@ public class movie {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+    public  String Option(){
+        String print = "hello";
+        return print;
     }
 
 }

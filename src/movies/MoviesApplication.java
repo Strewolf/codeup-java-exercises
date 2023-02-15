@@ -29,6 +29,7 @@ public class MoviesApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Integer userInput = 1;
+        String words = "";
         while (userInput.intValue() < -1 || userInput.intValue() < 5) {
             System.out.println("What would you like to do?\n\n" +
                     "0 - exit\n" +
@@ -61,6 +62,8 @@ public class MoviesApplication {
             }
             if (input == 7) {
                 viewMoviesByCategory("comedy");
+            } else {
+                System.out.println("sorry input is invalid");
             }
             if (input == 0) {
                 break;

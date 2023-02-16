@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9bc3b12-edac-4dc7-8fb7-58b561c8c398" name="Changes" comment="java 2 array exercise">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Quadrilateral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Quadrilateral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/ShapesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/ShapesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Square.java" afterDir="false" />
-    </list>
+    <list default="true" id="e9bc3b12-edac-4dc7-8fb7-58b561c8c398" name="Changes" comment="java 2 interfaces and Abstract classes exercise" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,14 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675090830865</updated>
       <workItem from="1675090834614" duration="34314000" />
-      <workItem from="1675886321777" duration="137495000" />
-    </task>
-    <task id="LOCAL-00016" summary="java second exercise">
-      <created>1675112443685</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1675112443685</updated>
+      <workItem from="1675886321777" duration="138148000" />
     </task>
     <task id="LOCAL-00017" summary="java second exercise">
       <created>1675112563307</created>
@@ -415,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676568623695</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="java 2 interfaces and Abstract classes exercise">
+      <created>1676570042779</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1676570042779</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,6 +434,7 @@
     <MESSAGE value="java string exercise" />
     <MESSAGE value="java 2 oop exercise" />
     <MESSAGE value="java 2 array exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 2 array exercise" />
+    <MESSAGE value="java 2 interfaces and Abstract classes exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 2 interfaces and Abstract classes exercise" />
   </component>
 </project>

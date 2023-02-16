@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9bc3b12-edac-4dc7-8fb7-58b561c8c398" name="Changes" comment="java 2 array exercise">
+      <change afterPath="$PROJECT_DIR$/src/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/ShapesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/movies/MoviesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/MoviesApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,14 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675090830865</updated>
       <workItem from="1675090834614" duration="34314000" />
-      <workItem from="1675886321777" duration="127343000" />
-    </task>
-    <task id="LOCAL-00012" summary="java second exercise">
-      <created>1675108052005</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1675108052005</updated>
+      <workItem from="1675886321777" duration="133040000" />
     </task>
     <task id="LOCAL-00013" summary="java second exercise">
       <created>1675108077015</created>
@@ -412,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676498226812</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="java 2 array exercise">
+      <created>1676502021583</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1676502021583</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

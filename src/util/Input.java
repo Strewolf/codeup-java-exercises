@@ -32,21 +32,33 @@ public class Input {
     }
 
     public int getInt() {
-//        System.out.println("enter the radius to receive area and circumference");
-        return this.scanner.nextInt();
+        while (true) {
+            try {
+                String input = getString();
+                return Integer.valueOf(input);
+            } catch (NumberFormatException e) {
+                System.out.println("Please enter a valid integer.");
+            }
+        }
     }
 
     public double getDouble(double min, double max){
         double input;
         do {
-//            System.out.println("Enter a number with decimal between " + min + " and " + max);
+            System.out.println("Enter a number with decimal between " + min + " and " + max);
             input = this.scanner.nextDouble();
         }while(input < min+.1 || input > max-.1);
         return input;
     }
     public double getDouble(){
-//        System.out.println("enter a number with a decimal");
-        return this.scanner.nextDouble();
+        while (true) {
+            try {
+                String input = getString();
+                return Double.valueOf(input);
+            } catch (NumberFormatException e) {
+                System.out.println("Please enter a valid double.");
+            }
+        }
     }
 
 

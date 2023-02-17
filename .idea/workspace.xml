@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9bc3b12-edac-4dc7-8fb7-58b561c8c398" name="Changes" comment="java 2 interfaces and Abstract classes exercise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/grades/GradesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grades/GradesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Input.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,14 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675090830865</updated>
       <workItem from="1675090834614" duration="34314000" />
-      <workItem from="1675886321777" duration="160289000" />
-    </task>
-    <task id="LOCAL-00020" summary="java second exercise">
-      <created>1675114274043</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1675114274043</updated>
+      <workItem from="1675886321777" duration="162167000" />
     </task>
     <task id="LOCAL-00021" summary="java second exercise">
       <created>1675189423278</created>
@@ -412,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676652927236</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="java 2 interfaces and Abstract classes exercise">
+      <created>1676665211586</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1676665211586</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

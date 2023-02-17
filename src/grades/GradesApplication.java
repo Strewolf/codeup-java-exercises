@@ -5,20 +5,12 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GradesApplication {
-    public static void StudentsHash(){
-        HashMap<String, String> Students = new HashMap<>();
-        Students.put(" | lilKim | "," name: Kim - GitHub Username: lilKim Average: 78.33\n");
-        Students.put(" | MasterP | "," name: Peter - GitHub Username: MasterP Average: 60.00\n");
-        Students.put(" | lilKeed | "," name: Keith - GitHub Username: MasterP Average: 76.67\n");
-        Students.put(" | iceJJfish | "," name: Jason - GitHub Username: iceJJfish Average: 30.67\n");
-        System.out.println("Welcome!\n\nHere are the GitHub usernames of our students:\n");
-        System.out.println(Students.keySet());
-        System.out.println("\nWhat student would you like to see more information on?");
-    }
-
     public static void main(String[] args) {
-        GradesApplication app = new GradesApplication();
-        app.StudentsHash();
+        HashMap<String, String> Students = new HashMap<>();
+        Students.put("lilKim"," name: Kim - GitHub Username: lilKim Average: 78.33\n");
+        Students.put("MasterP"," name: Peter - GitHub Username: MasterP Average: 60.00\n");
+        Students.put("lilKeed"," name: Keith - GitHub Username: MasterP Average: 76.67\n");
+        Students.put("iceJJfish"," name: Jason - GitHub Username: iceJJfish Average: 30.67\n");
         Student lilKim = new Student("lilKim");
         Student MasterP = new Student("MasterP");
         Student lilKeed = new Student("lilKeed");
@@ -39,8 +31,31 @@ public class GradesApplication {
         iceJJfish.addGrade(30);
         iceJJfish.addGrade(22);
 
+        System.out.println("Welcome!\n\nHere are the GitHub usernames of our students:\n");
+        System.out.println(Students.keySet());
+        System.out.println("\nWhat student would you like to see more information on?");
+
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.next();
+        boolean continueLoop = true;
+        do {
+            String input = scanner.next();
+            if (Students.containsKey(input)) {
+                String values = Students.get(input);
+                System.out.println(values);
+                System.out.println("Would you like to see another student?");
+                input = scanner.next();
+            } else {
+                System.out.println("Sorry, no student found with the GitHub username of" + input);
+                input = scanner.next();
+            }
+            if (input.equalsIgnoreCase("yes") || input.equalsIgnoreCase("y")) {
+                System.out.println("What student would you like to see more information on?");
+            } else {
+                System.out.println("Goodbye, and have a wonderful day!");
+                continueLoop = false;
+            }
+        }while (continueLoop);
+
 
 
 //        List<String> keys = new ArrayList<>(Students.keySet());

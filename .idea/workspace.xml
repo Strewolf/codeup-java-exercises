@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9bc3b12-edac-4dc7-8fb7-58b561c8c398" name="Changes" comment="java 2 interfaces and Abstract classes exercise">
+      <change afterPath="$PROJECT_DIR$/src/GroceryList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,14 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675090830865</updated>
       <workItem from="1675090834614" duration="34314000" />
-      <workItem from="1675886321777" duration="164405000" />
-    </task>
-    <task id="LOCAL-00023" summary="java loop exercise">
-      <created>1675195878131</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1675195878131</updated>
+      <workItem from="1675886321777" duration="164424000" />
+      <workItem from="1676996633174" duration="3239000" />
     </task>
     <task id="LOCAL-00024" summary="java loop exercise">
       <created>1675197807139</created>
@@ -411,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676668400707</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="java 2 interfaces and Abstract classes exercise">
+      <created>1676930063714</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1676930063714</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

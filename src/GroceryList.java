@@ -26,22 +26,20 @@ public class GroceryList {
             System.out.println("Invalid category.");
         }
     }
+//    another way to edit
 
-//    public void editItem(String category, String item, int newQuantity) {
-//        if (!list.containsKey(category)) {
-//            System.out.println("Error: category not found in list.");
-//            return;
-//        }
+//    Scanner scanner = new Scanner(System.in);
 //
-//        if (!list.get(category).containsKey(item)) {
-//            System.out.println("Error: item not found in category.");
-//            return;
-//        }
+//System.out.print("Enter the key you want to update: ");
+//    String key = scanner.nextLine();
 //
-//        int oldQuantity = list.get(category).get(item);
-//        list.get(category).put(item, newQuantity);
-//
-//        System.out.println("Item updated: " + category + " - " + item + " (" + oldQuantity + ") => " + category + " - " + item + " (" + newQuantity + ")");
+//if (map.containsKey(key)) {
+//        System.out.print("Enter the new value: ");
+//        int value = scanner.nextInt();
+//        map.put(key, value);
+//        System.out.println("Updated value for key " + key + " is " + value);
+//    } else {
+//        System.out.println("Key not found in map.");
 //    }
 public void editGroceryListItem(String oldCategory, String oldItemName, String newCategory, String newItemName, int newQuantity) {
     if (!list.containsKey(oldCategory)) {
@@ -64,7 +62,7 @@ public void editGroceryListItem(String oldCategory, String oldItemName, String n
         list.put(newCategory, newCategoryMap);
     }
 
-    System.out.println("Item updated: " + oldCategory + " - " + oldItemName + " (" + oldQuantity + ") => " + newCategory + " - " + newItemName + " (" + newQuantity + ")");
+    System.out.println("Item updated: " + oldCategory + " : " + oldItemName + " (" + oldQuantity + ") Replaced with => " + newCategory + " - " + newItemName + " (" + newQuantity + ")");
 }
 
 
